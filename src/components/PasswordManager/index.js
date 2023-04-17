@@ -147,8 +147,8 @@ class PasswordManager extends Component {
         <div className="form-background bgm2">
           <div className="header-container">
             <div className="count-container span">
-              <h1 className="add-new-password-text"> </h1>
-              Your Passwords
+              <h1 className="add-new-password-text"> Your Passwords </h1>
+
               <p className="count-para">{passwordList.length}</p>
             </div>
             <div className="input-container-search">
