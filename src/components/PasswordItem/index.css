@@ -1,0 +1,58 @@
+.password-manager-list {
+  min-width: 180px;
+  border: 1px solid #7683cb;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 0px;
+}
+.initial-letter {
+  background-color: #14b8a6;
+  padding: 5px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.stars {
+  height: 20px;
+  width: 140px;
+}
+.delete-icon {
+  height: 20px;
+  cursor: pointer;
+}
+.names-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 170px;
+  height: 100px;
+}
+.name-texts {
+  color: #f8fafc;
+  font-weight: 500;
+}
+@media screen and (max-width: 767px) {
+  .password-manager-list {
+    width: 80vw;
+    margin-left: 0px;
+  }
+  .names-container {
+    width: 100%;
+  }
+}
+.delete-button {
+  background-color: transparent;
+  border-color: transparent;
+}
